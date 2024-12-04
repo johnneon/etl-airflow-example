@@ -135,6 +135,9 @@ services:
   airflow-scheduler:
     <<: *airflow-common
     command: scheduler
+    build:
+      context: .
+      dockerfile: Dockerfile
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8974/health"]
       interval: 30s
@@ -150,6 +153,9 @@ services:
   airflow-worker:
     <<: *airflow-common
     command: celery worker
+    build:
+      context: .
+      dockerfile: Dockerfile
     healthcheck:
       # yamllint disable rule:line-length
       test:

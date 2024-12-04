@@ -1,0 +1,1300 @@
+[2024-12-04T17:47:21.032+0000] {processor.py:186} INFO - Started process (PID=46) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:47:21.033+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:47:21.040+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:47:21.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:47:21.080+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:47:21.074+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:47:21.081+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:47:21.100+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.074 seconds
+[2024-12-04T17:47:51.190+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:47:51.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:47:51.196+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:47:51.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:47:51.205+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:47:51.203+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:47:51.206+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:47:51.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.041 seconds
+[2024-12-04T17:48:21.440+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:48:21.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:48:21.446+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:48:21.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:48:21.453+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:48:21.452+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:48:21.454+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:48:21.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.040 seconds
+[2024-12-04T17:48:52.334+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:48:52.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:48:52.346+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:48:52.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:48:52.369+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:48:52.367+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:48:52.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:48:52.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.066 seconds
+[2024-12-04T17:49:22.814+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:49:22.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:49:22.838+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:49:22.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:49:22.856+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:49:22.854+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:49:22.857+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:49:22.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.095 seconds
+[2024-12-04T17:49:53.564+0000] {processor.py:186} INFO - Started process (PID=372) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:49:53.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:49:53.570+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:49:53.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:49:53.595+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:49:53.592+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:49:53.596+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:49:53.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.068 seconds
+[2024-12-04T17:49:58.352+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:49:58.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:49:58.356+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:49:58.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:49:58.368+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:49:58.366+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:49:58.368+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:49:58.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.046 seconds
+[2024-12-04T17:50:28.731+0000] {processor.py:186} INFO - Started process (PID=454) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:50:28.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:50:28.734+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:50:28.733+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:50:28.742+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:50:28.741+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:50:28.743+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:50:28.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.035 seconds
+[2024-12-04T17:51:07.911+0000] {processor.py:186} INFO - Started process (PID=46) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:51:07.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:51:07.917+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:51:07.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:51:07.940+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:51:07.933+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:51:07.942+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:51:07.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.066 seconds
+[2024-12-04T17:51:38.228+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:51:38.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:51:38.235+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:51:38.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:51:38.251+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:51:38.247+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:51:38.251+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:51:38.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.057 seconds
+[2024-12-04T17:52:08.643+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:52:08.645+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T17:52:08.650+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:52:08.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:52:08.659+0000] {logging_mixin.py:190} INFO - [2024-12-04T17:52:08.657+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T17:52:08.659+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T17:52:08.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.052 seconds
+[2024-12-04T18:51:58.601+0000] {processor.py:186} INFO - Started process (PID=46) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:51:58.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:51:58.610+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:51:58.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:51:58.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:51:58.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.123 seconds
+[2024-12-04T18:52:29.567+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:52:29.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:52:29.585+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:52:29.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:52:29.600+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:52:29.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.065 seconds
+[2024-12-04T18:53:00.676+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:53:00.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:53:00.693+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:53:00.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:53:00.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:53:00.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.076 seconds
+[2024-12-04T18:53:31.146+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:53:31.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:53:31.154+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:53:31.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:53:31.158+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:53:31.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.047 seconds
+[2024-12-04T18:54:01.549+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:54:01.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:54:01.559+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:54:01.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:54:01.574+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:54:01.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.096 seconds
+[2024-12-04T18:54:18.919+0000] {processor.py:186} INFO - Started process (PID=366) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:54:18.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:54:18.925+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:54:18.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:54:18.936+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:54:18.932+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:54:18.937+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:54:18.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.046 seconds
+[2024-12-04T18:55:32.477+0000] {processor.py:186} INFO - Started process (PID=44) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:55:32.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:55:32.504+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:55:32.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:55:32.523+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:55:32.521+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:55:32.524+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:55:32.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.089 seconds
+[2024-12-04T18:56:03.557+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:56:03.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:56:03.570+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:56:03.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:56:03.599+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:56:03.591+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:56:03.601+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:56:03.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.100 seconds
+[2024-12-04T18:56:33.806+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:56:33.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:56:33.816+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:56:33.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:56:33.847+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:56:33.842+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:56:33.847+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:56:33.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.083 seconds
+[2024-12-04T18:57:04.046+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:57:04.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:57:04.066+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:57:04.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:57:04.085+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:57:04.082+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:57:04.086+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:57:04.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.097 seconds
+[2024-12-04T18:57:34.395+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:57:34.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:57:34.403+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:57:34.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:57:34.421+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:57:34.419+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:57:34.422+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:57:34.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.071 seconds
+[2024-12-04T18:58:04.696+0000] {processor.py:186} INFO - Started process (PID=370) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:58:04.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:58:04.703+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:58:04.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:58:04.716+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:58:04.711+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:58:04.717+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:58:04.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.179 seconds
+[2024-12-04T18:58:48.182+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:58:48.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:58:48.202+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:58:48.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:58:48.234+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:58:48.228+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:58:48.241+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:58:48.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.174 seconds
+[2024-12-04T18:59:19.390+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:59:19.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:59:19.398+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:59:19.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:59:19.411+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:59:19.409+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:59:19.411+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:59:19.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.068 seconds
+[2024-12-04T18:59:50.456+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:59:50.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T18:59:50.463+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:59:50.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:59:50.476+0000] {logging_mixin.py:190} INFO - [2024-12-04T18:59:50.474+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T18:59:50.477+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T18:59:50.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.075 seconds
+[2024-12-04T19:00:20.808+0000] {processor.py:186} INFO - Started process (PID=249) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:00:20.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:00:20.815+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:00:20.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:00:20.826+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:00:20.824+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T19:00:20.827+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:00:20.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.103 seconds
+[2024-12-04T19:00:51.640+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:00:51.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:00:51.651+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:00:51.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:00:51.661+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:00:51.659+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T19:00:51.661+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:00:51.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.096 seconds
+[2024-12-04T19:01:22.579+0000] {processor.py:186} INFO - Started process (PID=377) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:01:22.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:01:22.589+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:01:22.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:01:22.599+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:01:22.597+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl_client_activity.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_client_activity.py", line 6, in <module>
+    from transform_script import transfrom
+  File "/opt/airflow/dags/transform_script.py", line 2, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+[2024-12-04T19:01:22.599+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:01:22.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.094 seconds
+[2024-12-04T19:02:55.314+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:02:55.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:02:55.320+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:02:55.377+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:02:55.655+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.654+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:etl_client_activity
+[2024-12-04T19:02:55.662+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.661+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:etl_client_activity
+[2024-12-04T19:02:55.668+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.667+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:etl_client_activity
+[2024-12-04T19:02:55.671+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.671+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:etl_client_activity
+[2024-12-04T19:02:55.674+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.674+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:etl_client_activity
+[2024-12-04T19:02:55.677+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.677+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:etl_client_activity
+[2024-12-04T19:02:55.680+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.680+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:etl_client_activity
+[2024-12-04T19:02:55.681+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.680+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:02:55.690+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.690+0000] {dag.py:3262} INFO - Creating ORM DAG for etl_client_activity
+[2024-12-04T19:02:55.697+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:02:55.697+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity to 2024-10-05 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-12-04T19:02:55.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.409 seconds
+[2024-12-04T19:03:26.714+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:03:26.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:03:26.721+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:03:26.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:03:26.750+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:03:26.774+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:03:26.774+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:03:26.796+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:03:26.796+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity to 2024-10-05 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-12-04T19:03:26.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.110 seconds
+[2024-12-04T19:03:57.224+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:03:57.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:03:57.231+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:03:57.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:03:57.254+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:03:57.269+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:03:57.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:03:57.288+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:03:57.288+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity to 2024-10-05 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-12-04T19:03:57.302+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.095 seconds
+[2024-12-04T19:04:22.827+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:04:22.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:04:22.843+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:22.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:04:22.878+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:04:23.052+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.052+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:etl_client_activity_EFIMOVICH_EVGENII
+[2024-12-04T19:04:23.058+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.058+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:etl_client_activity_EFIMOVICH_EVGENII
+[2024-12-04T19:04:23.060+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.060+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:etl_client_activity_EFIMOVICH_EVGENII
+[2024-12-04T19:04:23.062+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.062+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:etl_client_activity_EFIMOVICH_EVGENII
+[2024-12-04T19:04:23.064+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.064+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:etl_client_activity_EFIMOVICH_EVGENII
+[2024-12-04T19:04:23.068+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.067+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:etl_client_activity_EFIMOVICH_EVGENII
+[2024-12-04T19:04:23.070+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.070+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:etl_client_activity_EFIMOVICH_EVGENII
+[2024-12-04T19:04:23.071+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.071+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:04:23.080+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.080+0000] {dag.py:3262} INFO - Creating ORM DAG for etl_client_activity_EFIMOVICH_EVGENII
+[2024-12-04T19:04:23.093+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:04:23.092+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-10-05 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-12-04T19:04:23.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.296 seconds
+[2024-12-04T19:05:50.440+0000] {processor.py:186} INFO - Started process (PID=45) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:05:50.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:05:50.445+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:05:50.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:05:50.488+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:05:50.534+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:05:50.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:05:50.558+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:05:50.558+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-10-05 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-12-04T19:05:50.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.154 seconds
+[2024-12-04T19:06:20.928+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:06:20.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:06:20.933+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:06:20.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:06:20.970+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:06:20.992+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:06:20.991+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:06:21.008+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:06:21.007+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-10-05 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-12-04T19:06:21.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.109 seconds
+[2024-12-04T19:06:51.760+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:06:51.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:06:51.764+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:06:51.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:06:51.795+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:06:51.817+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:06:51.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:06:51.829+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:06:51.829+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-10-05 00:00:00+00:00, run_after=2024-11-05 00:00:00+00:00
+[2024-12-04T19:06:51.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.088 seconds
+[2024-12-04T19:07:22.255+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:07:22.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:07:22.261+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:07:22.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:07:22.302+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:07:22.327+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:07:22.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:07:22.366+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:07:22.366+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:07:22.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.131 seconds
+[2024-12-04T19:07:52.601+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:07:52.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:07:52.604+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:07:52.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:07:52.652+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:07:52.673+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:07:52.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:07:52.697+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:07:52.697+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:07:52.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.125 seconds
+[2024-12-04T19:08:23.688+0000] {processor.py:186} INFO - Started process (PID=376) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:08:23.689+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:08:23.690+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:08:23.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:08:23.722+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:08:23.756+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:08:23.755+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:08:23.818+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:08:23.817+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:08:23.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.157 seconds
+[2024-12-04T19:08:53.922+0000] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:08:53.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:08:53.926+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:08:53.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:08:53.948+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:08:53.979+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:08:53.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:08:54.005+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:08:54.004+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:08:54.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.133 seconds
+[2024-12-04T19:09:24.831+0000] {processor.py:186} INFO - Started process (PID=504) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:09:24.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:09:24.835+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:09:24.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:09:24.871+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:09:24.901+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:09:24.901+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:09:24.926+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:09:24.926+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:09:24.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.124 seconds
+[2024-12-04T19:09:55.951+0000] {processor.py:186} INFO - Started process (PID=568) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:09:55.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:09:55.960+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:09:55.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:09:55.991+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:09:56.017+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:09:56.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:09:56.041+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:09:56.041+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:09:56.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.119 seconds
+[2024-12-04T19:10:26.985+0000] {processor.py:186} INFO - Started process (PID=632) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:10:26.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:10:26.989+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:10:26.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:10:27.043+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:10:27.058+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:10:27.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:10:27.090+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:10:27.090+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:10:27.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.136 seconds
+[2024-12-04T19:10:57.286+0000] {processor.py:186} INFO - Started process (PID=696) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:10:57.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:10:57.290+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:10:57.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:10:57.333+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:10:57.364+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:10:57.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:10:57.388+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:10:57.388+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:10:57.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.139 seconds
+[2024-12-04T19:11:28.186+0000] {processor.py:186} INFO - Started process (PID=760) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:11:28.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:11:28.190+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:11:28.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:11:28.239+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:11:28.266+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:11:28.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:11:28.306+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:11:28.306+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:11:28.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.152 seconds
+[2024-12-04T19:11:58.526+0000] {processor.py:186} INFO - Started process (PID=824) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:11:58.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:11:58.533+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:11:58.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:11:58.567+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:11:58.592+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:11:58.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:11:58.628+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:11:58.628+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:11:58.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.140 seconds
+[2024-12-04T19:12:23.773+0000] {processor.py:186} INFO - Started process (PID=886) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:12:23.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:12:23.806+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:12:23.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:12:24.141+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:12:24.513+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:12:24.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:12:24.875+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:12:24.871+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:12:24.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 1.279 seconds
+[2024-12-04T19:12:55.250+0000] {processor.py:186} INFO - Started process (PID=951) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:12:55.255+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:12:55.258+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:12:55.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:12:55.361+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:12:55.394+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:12:55.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:12:55.437+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:12:55.437+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:12:55.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.237 seconds
+[2024-12-04T19:13:25.919+0000] {processor.py:186} INFO - Started process (PID=1020) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:13:25.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:13:25.922+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:13:25.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:13:25.947+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:13:25.967+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:13:25.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:13:25.999+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:13:25.999+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:13:26.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.103 seconds
+[2024-12-04T19:13:56.506+0000] {processor.py:186} INFO - Started process (PID=1084) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:13:56.508+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:13:56.510+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:13:56.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:13:56.549+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:13:56.576+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:13:56.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:13:56.612+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:13:56.612+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:13:56.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.133 seconds
+[2024-12-04T19:13:58.627+0000] {processor.py:186} INFO - Started process (PID=1085) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:13:58.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:13:58.629+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:13:58.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:13:58.671+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:13:58.715+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:13:58.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:13:58.739+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:13:58.739+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:13:58.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.155 seconds
+[2024-12-04T19:14:05.443+0000] {processor.py:186} INFO - Started process (PID=1103) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:14:05.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:14:05.447+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:14:05.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:14:05.525+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:14:05.574+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:14:05.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:14:05.597+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:14:05.597+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:14:05.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.181 seconds
+[2024-12-04T19:15:14.180+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:15:14.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:15:14.218+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:15:14.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:15:14.299+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:15:14.338+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:15:14.337+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:15:14.380+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:15:14.379+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:15:14.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.245 seconds
+[2024-12-04T19:15:44.894+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:15:44.897+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:15:44.910+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:15:44.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:15:44.973+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:15:45.008+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:15:45.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:15:45.038+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:15:45.038+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:15:45.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.171 seconds
+[2024-12-04T19:16:15.815+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:16:15.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:16:15.842+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:16:15.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:16:15.879+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:16:15.908+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:16:15.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:16:15.932+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:16:15.932+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:16:15.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.153 seconds
+[2024-12-04T19:16:46.362+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:16:46.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:16:46.375+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:16:46.374+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:16:46.397+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:16:46.437+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:16:46.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:16:46.464+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:16:46.464+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:16:46.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.142 seconds
+[2024-12-04T19:17:17.061+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:17:17.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:17:17.069+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:17:17.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:17:17.109+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:17:17.132+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:17:17.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:17:17.150+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:17:17.150+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:17:17.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.109 seconds
+[2024-12-04T19:17:47.421+0000] {processor.py:186} INFO - Started process (PID=370) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:17:47.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:17:47.426+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:17:47.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:17:47.461+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:17:47.499+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:17:47.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:17:47.538+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:17:47.537+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:17:47.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.140 seconds
+[2024-12-04T19:18:18.203+0000] {processor.py:186} INFO - Started process (PID=434) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:18:18.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:18:18.218+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:18:18.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:18:18.261+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:18:18.283+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:18:18.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:18:18.306+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:18:18.306+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:18:18.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.141 seconds
+[2024-12-04T19:18:49.302+0000] {processor.py:186} INFO - Started process (PID=498) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:18:49.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:18:49.313+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:18:49.312+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:18:49.354+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:18:49.377+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:18:49.377+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:18:49.412+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:18:49.412+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:18:49.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.146 seconds
+[2024-12-04T19:19:20.083+0000] {processor.py:186} INFO - Started process (PID=562) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:19:20.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:19:20.092+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:19:20.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:19:20.134+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:19:20.160+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:19:20.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:19:20.184+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:19:20.184+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:19:20.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.140 seconds
+[2024-12-04T19:19:50.796+0000] {processor.py:186} INFO - Started process (PID=626) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:19:50.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:19:50.805+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:19:50.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:19:50.825+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:19:50.874+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:19:50.873+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:19:50.946+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:19:50.945+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:19:51.046+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.287 seconds
+[2024-12-04T19:20:22.054+0000] {processor.py:186} INFO - Started process (PID=690) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:20:22.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:20:22.059+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:20:22.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:20:22.096+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:20:22.122+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:20:22.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:20:22.187+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:20:22.187+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:20:22.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.189 seconds
+[2024-12-04T19:20:52.906+0000] {processor.py:186} INFO - Started process (PID=754) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:20:52.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:20:52.917+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:20:52.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:20:52.942+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:20:52.975+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:20:52.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:20:52.998+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:20:52.998+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:20:53.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.133 seconds
+[2024-12-04T19:21:24.054+0000] {processor.py:186} INFO - Started process (PID=818) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:21:24.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:21:24.061+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:21:24.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:21:24.106+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:21:24.126+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:21:24.126+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:21:24.145+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:21:24.145+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:21:24.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.114 seconds
+[2024-12-04T19:21:55.178+0000] {processor.py:186} INFO - Started process (PID=882) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:21:55.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:21:55.192+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:21:55.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:21:55.234+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:21:55.258+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:21:55.258+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:21:55.276+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:21:55.276+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:21:55.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.143 seconds
+[2024-12-04T19:22:25.780+0000] {processor.py:186} INFO - Started process (PID=946) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:22:25.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:22:25.784+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:22:25.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:22:25.810+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:22:25.828+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:22:25.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:22:25.843+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:22:25.843+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:22:25.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.083 seconds
+[2024-12-04T19:22:56.773+0000] {processor.py:186} INFO - Started process (PID=1010) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:22:56.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:22:56.778+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:22:56.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:22:56.837+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:22:56.877+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:22:56.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:22:56.900+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:22:56.899+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:22:56.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.154 seconds
+[2024-12-04T19:23:27.468+0000] {processor.py:186} INFO - Started process (PID=1074) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:23:27.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:23:27.477+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:23:27.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:23:27.503+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:23:27.541+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:23:27.541+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:23:27.566+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:23:27.566+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:23:27.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.124 seconds
+[2024-12-04T19:23:57.689+0000] {processor.py:186} INFO - Started process (PID=1138) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:23:57.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:23:57.703+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:23:57.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:23:57.727+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:23:57.746+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:23:57.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:23:57.764+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:23:57.764+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:23:57.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.096 seconds
+[2024-12-04T19:24:28.636+0000] {processor.py:186} INFO - Started process (PID=1202) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:24:28.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:24:28.658+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:24:28.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:24:28.707+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:24:28.779+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:24:28.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:24:28.840+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:24:28.839+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:24:28.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.345 seconds
+[2024-12-04T19:24:59.500+0000] {processor.py:186} INFO - Started process (PID=1266) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:24:59.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:24:59.515+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:24:59.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:24:59.542+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:24:59.600+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:24:59.600+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:24:59.630+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:24:59.630+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:24:59.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.182 seconds
+[2024-12-04T19:25:02.048+0000] {processor.py:186} INFO - Started process (PID=1284) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:25:02.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:25:02.050+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:25:02.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:25:02.075+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:25:02.091+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:25:02.091+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:25:02.110+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:25:02.110+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:25:02.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.079 seconds
+[2024-12-04T19:25:30.259+0000] {processor.py:186} INFO - Started process (PID=1330) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:25:30.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:25:30.281+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:25:30.280+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:25:30.313+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:25:30.448+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:25:30.447+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:25:30.462+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:25:30.462+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:25:30.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.369 seconds
+[2024-12-04T19:26:00.866+0000] {processor.py:186} INFO - Started process (PID=1394) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:26:00.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:26:00.872+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:26:00.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:26:00.892+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:26:00.908+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:26:00.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:26:00.933+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:26:00.933+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:26:00.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.095 seconds
+[2024-12-04T19:26:31.912+0000] {processor.py:186} INFO - Started process (PID=1458) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:26:31.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:26:31.928+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:26:31.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:26:31.958+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:26:31.975+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:26:31.975+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:26:31.996+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:26:31.996+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:26:32.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.110 seconds
+[2024-12-04T19:27:02.081+0000] {processor.py:186} INFO - Started process (PID=1522) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:27:02.085+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:27:02.094+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:27:02.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:27:02.117+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:27:02.360+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:27:02.360+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:27:02.396+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:27:02.395+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:27:02.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.378 seconds
+[2024-12-04T19:27:33.250+0000] {processor.py:186} INFO - Started process (PID=1586) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:27:33.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:27:33.285+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:27:33.283+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:27:33.364+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:27:33.472+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:27:33.471+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:27:33.535+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:27:33.535+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:27:33.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.421 seconds
+[2024-12-04T19:27:46.749+0000] {processor.py:186} INFO - Started process (PID=1604) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:27:46.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:27:46.761+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:27:46.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:27:46.824+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:27:46.950+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:27:46.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:27:46.997+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:27:46.997+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:27:47.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.294 seconds
+[2024-12-04T19:28:17.747+0000] {processor.py:186} INFO - Started process (PID=1674) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:28:17.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:28:17.755+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:28:17.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:28:17.795+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:28:17.826+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:28:17.826+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:28:17.847+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:28:17.847+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:28:17.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.129 seconds
+[2024-12-04T19:28:37.410+0000] {processor.py:186} INFO - Started process (PID=1729) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:28:37.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:28:37.414+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:28:37.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:28:37.457+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:28:37.491+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:28:37.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:28:37.509+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:28:37.508+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:28:37.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.120 seconds
+[2024-12-04T19:28:50.000+0000] {processor.py:186} INFO - Started process (PID=1739) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:28:50.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:28:50.008+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:28:50.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:28:50.105+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:28:50.291+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:28:50.291+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:28:50.310+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:28:50.310+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:28:50.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.341 seconds
+[2024-12-04T19:29:18.147+0000] {processor.py:186} INFO - Started process (PID=1803) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:29:18.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:29:18.151+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:29:18.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:29:18.187+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:29:18.214+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:29:18.214+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:29:03.486714+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': 'deef2f49-5aa6-4f60-9484-6f47fc713661'}
+[2024-12-04T19:29:18.241+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-04T19:29:18.241+0000] {logging_mixin.py:190} INFO - Task start:2024-12-04 19:29:05.587276+00:00 end:2024-12-04 19:29:18.240552+00:00 duration:12.653276
+[2024-12-04T19:29:18.241+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract> dag:<DAG: etl_client_activity_EFIMOVICH_EVGENII> dagrun:<DagRun etl_client_activity_EFIMOVICH_EVGENII @ 2024-12-04 19:29:03.486714+00:00: manual__2024-12-04T19:29:03.486714+00:00, state:running, queued_at: 2024-12-04 19:29:03.527037+00:00. externally triggered: True>
+[2024-12-04T19:29:18.241+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:29:03.486714+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': 'deef2f49-5aa6-4f60-9484-6f47fc713661'}
+[2024-12-04T19:29:18.241+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:29:18.241+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_client_activity_EFIMOVICH_EVGENII, task_id=extract, run_id=manual__2024-12-04T19:29:03.486714+00:00, execution_date=20241204T192903, start_date=20241204T192905, end_date=20241204T192918
+[2024-12-04T19:29:18.253+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:29:18.253+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.extract manual__2024-12-04T19:29:03.486714+00:00 [up_for_retry]> in state up_for_retry
+[2024-12-04T19:29:18.255+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:29:18.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:29:18.268+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:29:18.267+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:29:18.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.139 seconds
+[2024-12-04T19:29:48.459+0000] {processor.py:186} INFO - Started process (PID=1867) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:29:48.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:29:48.466+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:29:48.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:29:48.490+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:29:48.505+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:29:48.505+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:29:48.530+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:29:48.530+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:29:48.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.100 seconds
+[2024-12-04T19:30:19.593+0000] {processor.py:186} INFO - Started process (PID=1931) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:30:19.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:30:19.597+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:30:19.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:30:19.636+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:30:19.669+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:30:19.668+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:30:19.689+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:30:19.689+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:30:19.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.125 seconds
+[2024-12-04T19:30:50.714+0000] {processor.py:186} INFO - Started process (PID=1995) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:30:50.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:30:50.729+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:30:50.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:30:50.749+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:30:50.770+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:30:50.770+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:30:50.790+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:30:50.790+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:30:50.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.121 seconds
+[2024-12-04T19:31:20.895+0000] {processor.py:186} INFO - Started process (PID=2059) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:31:20.897+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:31:20.902+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:31:20.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:31:20.950+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:31:20.975+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:31:20.975+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:31:20.993+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:31:20.993+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:31:21.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.131 seconds
+[2024-12-04T19:31:51.877+0000] {processor.py:186} INFO - Started process (PID=2123) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:31:51.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:31:51.900+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:31:51.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:31:51.925+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:31:51.948+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:31:51.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:31:51.966+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:31:51.966+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:31:51.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.110 seconds
+[2024-12-04T19:32:22.369+0000] {processor.py:186} INFO - Started process (PID=2187) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:32:22.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:32:22.379+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:32:22.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:32:22.411+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:32:22.444+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:32:22.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:32:22.509+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:32:22.509+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:32:22.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.188 seconds
+[2024-12-04T19:32:53.191+0000] {processor.py:186} INFO - Started process (PID=2251) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:32:53.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:32:53.200+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:32:53.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:32:53.253+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:32:53.274+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:32:53.274+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:32:53.294+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:32:53.294+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:32:53.305+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.124 seconds
+[2024-12-04T19:33:24.398+0000] {processor.py:186} INFO - Started process (PID=2315) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:33:24.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:33:24.405+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:33:24.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:33:24.431+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:33:24.454+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:33:24.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:33:24.489+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:33:24.488+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:33:24.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.137 seconds
+[2024-12-04T19:33:54.748+0000] {processor.py:186} INFO - Started process (PID=2379) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:33:54.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:33:54.756+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:33:54.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:33:54.781+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:33:54.815+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:33:54.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:33:54.836+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:33:54.836+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:33:54.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.109 seconds
+[2024-12-04T19:34:25.024+0000] {processor.py:186} INFO - Started process (PID=2443) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:34:25.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:34:25.028+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:34:25.028+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:34:25.070+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:34:25.094+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:34:25.094+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:34:25.111+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:34:25.110+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:34:25.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.107 seconds
+[2024-12-04T19:34:29.754+0000] {processor.py:186} INFO - Started process (PID=2444) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:34:29.756+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:34:29.758+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:34:29.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:34:29.774+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:34:29.793+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:34:29.793+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:29:03.486714+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': '6801e772-b332-4e23-a7f5-7880a751b412'}
+[2024-12-04T19:34:29.825+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-04T19:34:29.825+0000] {logging_mixin.py:190} INFO - Task start:2024-12-04 19:34:20.335891+00:00 end:2024-12-04 19:34:29.796948+00:00 duration:9.461057
+[2024-12-04T19:34:29.825+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract> dag:<DAG: etl_client_activity_EFIMOVICH_EVGENII> dagrun:<DagRun etl_client_activity_EFIMOVICH_EVGENII @ 2024-12-04 19:29:03.486714+00:00: manual__2024-12-04T19:29:03.486714+00:00, state:running, queued_at: 2024-12-04 19:29:03.527037+00:00. externally triggered: True>
+[2024-12-04T19:34:29.825+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:29:03.486714+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': '6801e772-b332-4e23-a7f5-7880a751b412'}
+[2024-12-04T19:34:29.825+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:34:29.825+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=etl_client_activity_EFIMOVICH_EVGENII, task_id=extract, run_id=manual__2024-12-04T19:29:03.486714+00:00, execution_date=20241204T192903, start_date=20241204T193420, end_date=20241204T193429
+[2024-12-04T19:34:29.834+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:34:29.834+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.extract manual__2024-12-04T19:29:03.486714+00:00 [failed]> in state failed
+[2024-12-04T19:34:29.843+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:34:29.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:34:29.859+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:34:29.859+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:34:29.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.123 seconds
+[2024-12-04T19:35:00.334+0000] {processor.py:186} INFO - Started process (PID=2508) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:35:00.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:35:00.342+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:35:00.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:35:00.367+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:35:00.388+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:35:00.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:35:00.405+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:35:00.405+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:35:00.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.092 seconds
+[2024-12-04T19:35:31.108+0000] {processor.py:186} INFO - Started process (PID=2572) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:35:31.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:35:31.115+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:35:31.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:35:31.143+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:35:31.180+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:35:31.179+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:35:31.211+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:35:31.211+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:35:31.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.124 seconds
+[2024-12-04T19:36:01.303+0000] {processor.py:186} INFO - Started process (PID=2636) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:36:01.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:36:01.310+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:36:01.310+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:36:01.350+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:36:01.373+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:36:01.373+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:36:01.395+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:36:01.395+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:36:01.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.118 seconds
+[2024-12-04T19:36:32.298+0000] {processor.py:186} INFO - Started process (PID=2700) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:36:32.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:36:32.309+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:36:32.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:36:32.335+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:36:32.366+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:36:32.366+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:36:32.387+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:36:32.387+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:36:32.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.106 seconds
+[2024-12-04T19:37:02.680+0000] {processor.py:186} INFO - Started process (PID=2764) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:02.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:37:02.693+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:02.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:02.743+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:02.816+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:02.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:37:02.858+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:02.858+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:37:02.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.225 seconds
+[2024-12-04T19:37:03.767+0000] {processor.py:186} INFO - Started process (PID=2765) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:03.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:37:03.774+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:03.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:03.823+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:03.877+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:03.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:37:03.932+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:03.932+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:37:03.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.200 seconds
+[2024-12-04T19:37:10.943+0000] {processor.py:186} INFO - Started process (PID=2766) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:10.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:37:10.961+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:10.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:10.986+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:11.137+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:11.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:37:12.309+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:12.307+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:37:12.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 1.406 seconds
+[2024-12-04T19:37:43.110+0000] {processor.py:186} INFO - Started process (PID=2830) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:43.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:37:43.135+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:43.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:43.191+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:37:43.244+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:43.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:37:43.292+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:37:43.291+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:37:43.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.214 seconds
+[2024-12-04T19:38:13.605+0000] {processor.py:186} INFO - Started process (PID=2894) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:38:13.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:38:13.614+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:38:13.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:38:13.640+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:38:13.665+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:38:13.665+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:38:13.682+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:38:13.682+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:38:13.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.112 seconds
+[2024-12-04T19:38:44.720+0000] {processor.py:186} INFO - Started process (PID=2958) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:38:44.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:38:44.731+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:38:44.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:38:44.767+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:38:44.801+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:38:44.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:38:44.838+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:38:44.838+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:38:44.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.160 seconds
+[2024-12-04T19:39:15.608+0000] {processor.py:186} INFO - Started process (PID=3022) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:39:15.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:39:15.621+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:39:15.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:39:15.646+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:39:15.674+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:39:15.674+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:39:15.700+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:39:15.699+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:39:15.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.139 seconds
+[2024-12-04T19:39:16.599+0000] {processor.py:186} INFO - Started process (PID=3023) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:39:16.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:39:16.602+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:39:16.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:39:16.615+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:39:16.685+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:39:16.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:39:16.712+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:39:16.711+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:39:16.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.137 seconds
+[2024-12-04T19:39:46.996+0000] {processor.py:186} INFO - Started process (PID=3087) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:39:46.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:39:47.004+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:39:47.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:39:47.049+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:39:47.073+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:39:47.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:39:47.090+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:39:47.090+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:39:47.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.120 seconds
+[2024-12-04T19:40:17.481+0000] {processor.py:186} INFO - Started process (PID=3151) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:40:17.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:40:17.507+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:40:17.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:40:17.571+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:40:17.619+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:40:17.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:40:17.682+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:40:17.681+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:40:17.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.238 seconds
+[2024-12-04T19:40:48.006+0000] {processor.py:186} INFO - Started process (PID=3215) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:40:48.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:40:48.016+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:40:48.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:40:48.067+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:40:48.090+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:40:48.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:40:48.114+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:40:48.114+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:40:48.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.435 seconds
+[2024-12-04T19:41:19.295+0000] {processor.py:186} INFO - Started process (PID=3280) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:41:19.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:41:19.299+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:41:19.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:41:19.317+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:41:19.334+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:41:19.333+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:41:19.351+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:41:19.350+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:41:19.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.073 seconds
+[2024-12-04T19:41:50.176+0000] {processor.py:186} INFO - Started process (PID=3344) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:41:50.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:41:50.179+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:41:50.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:41:50.198+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:41:50.233+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:41:50.233+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:41:50.278+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:41:50.277+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:41:50.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.130 seconds
+[2024-12-04T19:41:55.673+0000] {processor.py:186} INFO - Started process (PID=3355) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:41:55.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:41:55.681+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:41:55.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:41:55.724+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:41:55.754+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:41:55.754+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:41:55.793+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:41:55.793+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:41:55.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.178 seconds
+[2024-12-04T19:42:05.464+0000] {processor.py:186} INFO - Started process (PID=3393) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:42:05.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:42:05.466+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:42:05.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:42:05.479+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:42:05.787+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:42:05.786+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:42:05.805+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:42:05.805+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:42:05.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.359 seconds
+[2024-12-04T19:42:36.364+0000] {processor.py:186} INFO - Started process (PID=3454) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:42:36.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:42:36.373+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:42:36.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:42:36.416+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:42:36.434+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:42:36.433+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:42:36.453+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:42:36.453+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:42:36.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.295 seconds
+[2024-12-04T19:43:02.053+0000] {processor.py:186} INFO - Started process (PID=3496) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:43:02.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:43:02.058+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:43:02.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:43:02.105+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:43:02.134+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:43:02.134+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:43:02.173+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:43:02.172+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:43:02.187+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.144 seconds
+[2024-12-04T19:43:32.472+0000] {processor.py:186} INFO - Started process (PID=3560) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:43:32.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:43:32.476+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:43:32.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:43:32.494+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:43:32.522+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:43:32.522+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:43:32.801+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:43:32.800+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:43:32.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.391 seconds
+[2024-12-04T19:44:03.050+0000] {processor.py:186} INFO - Started process (PID=3624) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:44:03.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:44:03.059+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:03.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:44:03.183+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:44:03.360+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:03.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:44:03.526+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:03.525+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:44:03.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.598 seconds
+[2024-12-04T19:44:34.277+0000] {processor.py:186} INFO - Started process (PID=3687) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:44:34.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:44:34.281+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:34.281+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:44:34.299+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:44:34.315+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:34.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:44:34.334+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:34.333+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:44:34.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.076 seconds
+[2024-12-04T19:44:54.072+0000] {processor.py:186} INFO - Started process (PID=3735) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:44:54.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:44:54.076+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:54.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:44:54.096+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:44:54.114+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:54.114+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:42:11.252169+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': '05192c1a-4c37-4dd4-872c-861f4167dc84'}
+[2024-12-04T19:44:54.145+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-04T19:44:54.145+0000] {logging_mixin.py:190} INFO - Task start:2024-12-04 19:44:46.280065+00:00 end:2024-12-04 19:44:54.144755+00:00 duration:7.86469
+[2024-12-04T19:44:54.145+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract> dag:<DAG: etl_client_activity_EFIMOVICH_EVGENII> dagrun:<DagRun etl_client_activity_EFIMOVICH_EVGENII @ 2024-12-04 19:42:11.252169+00:00: manual__2024-12-04T19:42:11.252169+00:00, state:running, queued_at: 2024-12-04 19:42:11.354231+00:00. externally triggered: True>
+[2024-12-04T19:44:54.145+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:42:11.252169+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': '05192c1a-4c37-4dd4-872c-861f4167dc84'}
+[2024-12-04T19:44:54.146+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:54.146+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_client_activity_EFIMOVICH_EVGENII, task_id=extract, run_id=manual__2024-12-04T19:42:11.252169+00:00, execution_date=20241204T194211, start_date=20241204T194446, end_date=20241204T194454
+[2024-12-04T19:44:54.157+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:54.157+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.extract manual__2024-12-04T19:42:11.252169+00:00 [up_for_retry]> in state up_for_retry
+[2024-12-04T19:44:54.164+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:54.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:44:54.177+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:44:54.177+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:44:54.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.132 seconds
+[2024-12-04T19:45:14.213+0000] {processor.py:186} INFO - Started process (PID=3771) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:45:14.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:45:14.217+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:45:14.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:45:14.247+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:45:14.265+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:45:14.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:45:14.282+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:45:14.282+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:45:14.304+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.098 seconds
+[2024-12-04T19:45:34.355+0000] {processor.py:186} INFO - Started process (PID=3815) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:45:34.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:45:34.360+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:45:34.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:45:34.394+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:45:34.449+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:45:34.448+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:42:11.252169+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': '962c4ecb-409c-41fc-a600-d8c851dfd321'}
+[2024-12-04T19:45:34.488+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-04T19:45:34.488+0000] {logging_mixin.py:190} INFO - Task start:2024-12-04 19:45:23.795944+00:00 end:2024-12-04 19:45:34.486592+00:00 duration:10.690648
+[2024-12-04T19:45:34.489+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract> dag:<DAG: etl_client_activity_EFIMOVICH_EVGENII> dagrun:<DagRun etl_client_activity_EFIMOVICH_EVGENII @ 2024-12-04 19:42:11.252169+00:00: manual__2024-12-04T19:42:11.252169+00:00, state:running, queued_at: 2024-12-04 19:42:11.354231+00:00. externally triggered: True>
+[2024-12-04T19:45:34.489+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:42:11.252169+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': '962c4ecb-409c-41fc-a600-d8c851dfd321'}
+[2024-12-04T19:45:34.489+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:45:34.489+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_client_activity_EFIMOVICH_EVGENII, task_id=extract, run_id=manual__2024-12-04T19:42:11.252169+00:00, execution_date=20241204T194211, start_date=20241204T194523, end_date=20241204T194534
+[2024-12-04T19:45:34.504+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:45:34.503+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.extract manual__2024-12-04T19:42:11.252169+00:00 [up_for_retry]> in state up_for_retry
+[2024-12-04T19:45:34.515+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:45:34.514+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:45:34.536+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:45:34.536+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:45:34.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.201 seconds
+[2024-12-04T19:46:04.438+0000] {processor.py:186} INFO - Started process (PID=3878) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:46:04.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:46:04.441+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:46:04.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:46:04.479+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:46:04.501+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:46:04.500+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:42:11.252169+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': 'cd729edd-8528-4ada-a451-a36ec4f5b92e'}
+[2024-12-04T19:46:04.525+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-04T19:46:04.525+0000] {logging_mixin.py:190} INFO - Task start:2024-12-04 19:45:52.501833+00:00 end:2024-12-04 19:46:04.524688+00:00 duration:12.022855
+[2024-12-04T19:46:04.525+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract> dag:<DAG: etl_client_activity_EFIMOVICH_EVGENII> dagrun:<DagRun etl_client_activity_EFIMOVICH_EVGENII @ 2024-12-04 19:42:11.252169+00:00: manual__2024-12-04T19:42:11.252169+00:00, state:running, queued_at: 2024-12-04 19:42:11.354231+00:00. externally triggered: True>
+[2024-12-04T19:46:04.526+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:42:11.252169+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': 'cd729edd-8528-4ada-a451-a36ec4f5b92e'}
+[2024-12-04T19:46:04.526+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:46:04.526+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_client_activity_EFIMOVICH_EVGENII, task_id=extract, run_id=manual__2024-12-04T19:42:11.252169+00:00, execution_date=20241204T194211, start_date=20241204T194552, end_date=20241204T194604
+[2024-12-04T19:46:04.545+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:46:04.545+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.extract manual__2024-12-04T19:42:11.252169+00:00 [up_for_retry]> in state up_for_retry
+[2024-12-04T19:46:04.554+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:46:04.554+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:46:04.566+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:46:04.566+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:46:04.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.142 seconds
+[2024-12-04T19:46:35.298+0000] {processor.py:186} INFO - Started process (PID=3942) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:46:35.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:46:35.307+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:46:35.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:46:35.329+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:46:35.351+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:46:35.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:46:35.389+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:46:35.388+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:46:35.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.115 seconds
+[2024-12-04T19:47:06.081+0000] {processor.py:186} INFO - Started process (PID=4006) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:47:06.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:47:06.085+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:47:06.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:47:06.106+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:47:06.121+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:47:06.121+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:47:06.137+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:47:06.137+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:47:06.152+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.078 seconds
+[2024-12-04T19:47:36.756+0000] {processor.py:186} INFO - Started process (PID=4070) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:47:36.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:47:36.759+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:47:36.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:47:36.803+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:47:36.825+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:47:36.825+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:47:36.878+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:47:36.878+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:47:36.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.176 seconds
+[2024-12-04T19:48:05.010+0000] {processor.py:186} INFO - Started process (PID=4131) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:48:05.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:48:05.013+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:05.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:48:05.027+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:48:05.040+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:05.040+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:47:53.517555+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': '7b811d18-1965-4fe2-aabc-4e8dd598166f'}
+[2024-12-04T19:48:05.057+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-04T19:48:05.057+0000] {logging_mixin.py:190} INFO - Task start:2024-12-04 19:47:55.572028+00:00 end:2024-12-04 19:48:05.056742+00:00 duration:9.484714
+[2024-12-04T19:48:05.057+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract> dag:<DAG: etl_client_activity_EFIMOVICH_EVGENII> dagrun:<DagRun etl_client_activity_EFIMOVICH_EVGENII @ 2024-12-04 19:47:53.517555+00:00: manual__2024-12-04T19:47:53.517555+00:00, state:running, queued_at: 2024-12-04 19:47:53.549409+00:00. externally triggered: True>
+[2024-12-04T19:48:05.057+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:47:53.517555+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': '7b811d18-1965-4fe2-aabc-4e8dd598166f'}
+[2024-12-04T19:48:05.057+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:05.057+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_client_activity_EFIMOVICH_EVGENII, task_id=extract, run_id=manual__2024-12-04T19:47:53.517555+00:00, execution_date=20241204T194753, start_date=20241204T194755, end_date=20241204T194805
+[2024-12-04T19:48:05.065+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:05.065+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.extract manual__2024-12-04T19:47:53.517555+00:00 [up_for_retry]> in state up_for_retry
+[2024-12-04T19:48:05.070+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:05.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:48:05.079+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:05.079+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:48:05.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.083 seconds
+[2024-12-04T19:48:15.141+0000] {processor.py:186} INFO - Started process (PID=4136) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:48:15.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:48:15.153+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:15.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:48:15.193+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:48:15.227+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:15.227+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:42:11.252169+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': 'f36573d4-0812-4e75-b2e7-91824130db94'}
+[2024-12-04T19:48:15.256+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2024-12-04T19:48:15.256+0000] {logging_mixin.py:190} INFO - Task start:2024-12-04 19:48:09.549609+00:00 end:2024-12-04 19:48:15.255707+00:00 duration:5.706098
+[2024-12-04T19:48:15.256+0000] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): extract> dag:<DAG: etl_client_activity_EFIMOVICH_EVGENII> dagrun:<DagRun etl_client_activity_EFIMOVICH_EVGENII @ 2024-12-04 19:42:11.252169+00:00: manual__2024-12-04T19:42:11.252169+00:00, state:running, queued_at: 2024-12-04 19:42:11.354231+00:00. externally triggered: True>
+[2024-12-04T19:48:15.256+0000] {logging_mixin.py:190} INFO - Failure caused by {'DAG Id': 'etl_client_activity_EFIMOVICH_EVGENII', 'Task Id': 'extract', 'Run Id': 'manual__2024-12-04T19:42:11.252169+00:00', 'Hostname': 'fbfc88a57984', 'External Executor Id': 'f36573d4-0812-4e75-b2e7-91824130db94'}
+[2024-12-04T19:48:15.257+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:15.257+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_client_activity_EFIMOVICH_EVGENII, task_id=extract, run_id=manual__2024-12-04T19:42:11.252169+00:00, execution_date=20241204T194211, start_date=20241204T194809, end_date=20241204T194815
+[2024-12-04T19:48:15.268+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:15.267+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.extract manual__2024-12-04T19:42:11.252169+00:00 [up_for_retry]> in state up_for_retry
+[2024-12-04T19:48:15.277+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:15.277+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:48:15.296+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:15.295+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:48:15.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.177 seconds
+[2024-12-04T19:48:45.462+0000] {processor.py:186} INFO - Started process (PID=4200) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:48:45.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:48:45.466+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:45.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:48:45.483+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:48:45.498+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:45.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:48:45.513+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:48:45.513+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:48:45.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.069 seconds
+[2024-12-04T19:49:53.773+0000] {processor.py:186} INFO - Started process (PID=45) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:49:53.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:49:53.785+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:49:53.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:49:53.840+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:49:53.888+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:49:53.887+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:49:53.931+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:49:53.931+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:49:53.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.207 seconds
+[2024-12-04T19:50:24.070+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:50:24.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:50:24.080+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:50:24.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:50:24.112+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:50:24.141+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:50:24.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:50:24.160+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:50:24.160+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:50:24.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.128 seconds
+[2024-12-04T19:50:54.993+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:50:54.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:50:55.006+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:50:55.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:50:55.031+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:50:55.049+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:50:55.048+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:50:55.065+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:50:55.064+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:50:55.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.097 seconds
+[2024-12-04T19:51:25.705+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:51:25.709+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:51:25.719+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:51:25.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:51:25.803+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:51:25.854+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:51:25.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:51:25.945+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:51:25.945+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:51:25.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.311 seconds
+[2024-12-04T19:51:56.415+0000] {processor.py:186} INFO - Started process (PID=305) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:51:56.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:51:56.427+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:51:56.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:51:56.502+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:51:56.546+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:51:56.546+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:51:56.590+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:51:56.589+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:51:56.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.210 seconds
+[2024-12-04T19:52:27.310+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:52:27.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:52:27.331+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:52:27.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:52:27.376+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:52:27.418+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:52:27.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:52:27.443+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:52:27.443+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:52:27.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.180 seconds
+[2024-12-04T19:52:58.538+0000] {processor.py:186} INFO - Started process (PID=433) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:52:58.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:52:58.549+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:52:58.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:52:58.588+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:52:58.609+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:52:58.609+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:52:58.634+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:52:58.634+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:52:58.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.135 seconds
+[2024-12-04T19:53:28.771+0000] {processor.py:186} INFO - Started process (PID=497) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:53:28.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:53:28.780+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:53:28.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:53:28.818+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:53:28.857+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:53:28.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:53:28.890+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:53:28.890+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:53:28.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.144 seconds
+[2024-12-04T19:54:00.114+0000] {processor.py:186} INFO - Started process (PID=561) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:54:00.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:54:00.164+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:54:00.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:54:00.304+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:54:00.420+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:54:00.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:54:00.480+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:54:00.479+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:54:00.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.492 seconds
+[2024-12-04T19:54:30.711+0000] {processor.py:186} INFO - Started process (PID=626) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:54:30.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:54:30.722+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:54:30.721+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:54:30.769+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:54:30.804+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:54:30.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:54:30.840+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:54:30.840+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:54:30.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.155 seconds
+[2024-12-04T19:55:01.231+0000] {processor.py:186} INFO - Started process (PID=689) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:55:01.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:55:01.242+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:55:01.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:55:01.281+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:55:01.570+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:55:01.570+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:55:01.634+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:55:01.633+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:55:01.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.450 seconds
+[2024-12-04T19:55:32.196+0000] {processor.py:186} INFO - Started process (PID=752) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:55:32.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:55:32.202+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:55:32.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:55:32.257+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:55:32.278+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:55:32.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:55:32.307+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:55:32.307+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:55:32.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.144 seconds
+[2024-12-04T19:56:03.244+0000] {processor.py:186} INFO - Started process (PID=816) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:56:03.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:56:03.252+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:56:03.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:56:03.308+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:56:03.336+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:56:03.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:56:03.360+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:56:03.360+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:56:03.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.155 seconds
+[2024-12-04T19:56:34.079+0000] {processor.py:186} INFO - Started process (PID=880) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:56:34.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:56:34.092+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:56:34.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:56:34.135+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:56:34.166+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:56:34.166+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:56:34.204+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:56:34.204+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:56:34.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.170 seconds
+[2024-12-04T19:57:04.774+0000] {processor.py:186} INFO - Started process (PID=944) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:57:04.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:57:04.783+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:57:04.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:57:04.821+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:57:04.863+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:57:04.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:57:04.887+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:57:04.887+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:57:04.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.160 seconds
+[2024-12-04T19:57:26.240+0000] {processor.py:186} INFO - Started process (PID=1002) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:57:26.243+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:57:26.248+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:57:26.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:57:26.276+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:57:26.315+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:57:26.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:57:26.336+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:57:26.336+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:57:26.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.134 seconds
+[2024-12-04T19:57:57.445+0000] {processor.py:186} INFO - Started process (PID=1066) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:57:57.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:57:57.454+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:57:57.453+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:57:57.550+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:57:57.623+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:57:57.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:57:57.696+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:57:57.696+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:57:57.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.315 seconds
+[2024-12-04T19:58:28.508+0000] {processor.py:186} INFO - Started process (PID=1136) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:58:28.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:58:28.512+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:58:28.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:58:28.535+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:58:28.554+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:58:28.553+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:58:28.571+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:58:28.571+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:58:28.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.081 seconds
+[2024-12-04T19:58:59.043+0000] {processor.py:186} INFO - Started process (PID=1200) to work on /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:58:59.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_client_activity.py for tasks to queue
+[2024-12-04T19:58:59.047+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:58:59.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:58:59.073+0000] {processor.py:925} INFO - DAG(s) 'etl_client_activity_EFIMOVICH_EVGENII' retrieved from /opt/airflow/dags/etl_client_activity.py
+[2024-12-04T19:58:59.090+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:58:59.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T19:58:59.107+0000] {logging_mixin.py:190} INFO - [2024-12-04T19:58:59.107+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_client_activity_EFIMOVICH_EVGENII to 2024-11-05 00:00:00+00:00, run_after=2024-12-05 00:00:00+00:00
+[2024-12-04T19:58:59.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_client_activity.py took 0.083 seconds
