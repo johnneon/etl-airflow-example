@@ -5,42 +5,39 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from transform_script import transfrom
 
-# def debug_working_directory(**kwargs):
-#     """Проверка текущей рабочей директории"""
-#     current_dir = os.getcwd()
-#     print(f"Current working directory: {current_dir}")
-#     print(f"Files in working directory: {os.listdir(os.path.join(current_dir, 'dags'))}")
 
-
-# Функции для задач
 def extract_data(**kwargs):
     """Извлечение данных из файла profit_table.csv"""
-    profit_table = pd.read_csv('dags/profit_table.csv')  # Читаем таблицу
-    # Сохраняем в Parquet
+    profit_table = pd.read_csv('dags/profit_table.csv')
     profit_table.to_parquet('dags/profit_table_extracted.parquet', index=False)
-    # Передаем путь через XCom
     kwargs['ti'].xcom_push(key='profit_table_path', value='dags/profit_table_extracted.parquet')
 
 
 def transform_data(**kwargs):
     """Обработка данных с использованием transform"""
     ti = kwargs['ti']
-    profit_table = pd.read_parquet(ti.xcom_pull(key='profit_table_path'))  # Загружаем данные
-    transformed_data = transfrom(profit_table, kwargs['ds'])  # Обрабатываем данные
-    ti.xcom_push(key='transformed_data', value=transformed_data.to_dict())  # Сохраняем данные
+    profit_table = pd.read_parquet(ti.xcom_pull(key='profit_table_path'))
+    transformed_data = transfrom(profit_table, kwargs['ds'])
+    ti.xcom_push(key='transformed_data', value=transformed_data.to_dict())
 
+# def transform_product_data(product, **kwargs):
+#     """Обработка данных для отдельного продукта"""
+#     ti = kwargs['ti']
+#     profit_table = pd.read_parquet(ti.xcom_pull(key='profit_table_path'))
+#     filtered_table = profit_table[['id', f'sum_{product}', f'count_{product}', 'date']]
+#     transformed_data = transfrom(filtered_table, kwargs['ds'])
+#     ti.xcom_push(key=f'transformed_data_{product}', value=transformed_data.to_dict())
 
 def load_data(**kwargs):
     """Сохранение обработанных данных в файл flags_activity.csv"""
     ti = kwargs['ti']
-    transformed_data = pd.DataFrame(ti.xcom_pull(key='transformed_data'))  # Загружаем обработанные данные
-    # Проверяем, существует ли файл flags_activity.csv
+    transformed_data = pd.DataFrame(ti.xcom_pull(key='transformed_data'))
     if os.path.exists('dags/flags_activity.csv'):
         existing_data = pd.read_csv('dags/flags_activity.csv')
         combined_data = pd.concat([existing_data, transformed_data], ignore_index=True)
     else:
         combined_data = transformed_data
-    combined_data.to_csv('dags/flags_activity.csv', index=False)  # Сохраняем данные
+    combined_data.to_csv('dags/flags_activity.csv', index=False)
 
 
 default_args = {
@@ -60,20 +57,25 @@ with DAG(
         start_date=datetime(2023, 10, 1),
         catchup=False,
 ) as dag:
-    # debug_task = PythonOperator(
-    #     task_id='debug_working_directory',
-    #     python_callable=debug_working_directory,
-    # )
-
     extract_task = PythonOperator(
         task_id='extract',
         python_callable=extract_data,
     )
 
+    # transform_tasks = []
+    # for product in 'abcdefghij':
+    #     task = PythonOperator(
+    #         task_id=f'transform_{product}',
+    #         python_callable=transform_product_data,
+    #         op_kwargs={'product': product},
+    #     )
+    #     transform_tasks.append(task)
+
     transform_task = PythonOperator(
         task_id='transform',
         python_callable=transform_data,
     )
+
 
     load_task = PythonOperator(
         task_id='load',

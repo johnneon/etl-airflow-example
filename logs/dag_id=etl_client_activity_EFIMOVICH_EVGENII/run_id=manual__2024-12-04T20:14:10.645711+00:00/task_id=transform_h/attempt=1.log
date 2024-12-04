@@ -1,0 +1,18 @@
+[2024-12-04T20:15:42.977+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-04T20:15:52.861+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.transform_h manual__2024-12-04T20:14:10.645711+00:00 [queued]>
+[2024-12-04T20:15:53.033+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.transform_h manual__2024-12-04T20:14:10.645711+00:00 [queued]>
+[2024-12-04T20:15:53.042+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-04T20:15:53.623+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): transform_h> on 2024-12-04 20:14:10.645711+00:00
+[2024-12-04T20:15:53.764+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=115) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-04T20:15:53.795+0000] {standard_task_runner.py:72} INFO - Started process 161 to run task
+[2024-12-04T20:15:53.876+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'etl_client_activity_EFIMOVICH_EVGENII', 'transform_h', 'manual__2024-12-04T20:14:10.645711+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/etl_client_activity.py', '--cfg-path', '/tmp/tmpuxv_n51r']
+[2024-12-04T20:15:53.891+0000] {standard_task_runner.py:105} INFO - Job 84: Subtask transform_h
+[2024-12-04T20:15:55.915+0000] {task_command.py:467} INFO - Running <TaskInstance: etl_client_activity_EFIMOVICH_EVGENII.transform_h manual__2024-12-04T20:14:10.645711+00:00 [running]> on host fbfc88a57984
+[2024-12-04T20:17:02.769+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_client_activity_EFIMOVICH_EVGENII' AIRFLOW_CTX_TASK_ID='transform_h' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T20:14:10.645711+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-04T20:14:10.645711+00:00'
+[2024-12-04T20:17:02.867+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-04T20:17:02.880+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-04T20:17:02.888+0000] {logging_mixin.py:190} INFO - Current task name:transform_h state:running start_date:2024-12-04 20:15:52.875042+00:00
+[2024-12-04T20:17:02.901+0000] {logging_mixin.py:190} INFO - Dag name:etl_client_activity_EFIMOVICH_EVGENII and current dag run status:running
+[2024-12-04T20:17:02.916+0000] {taskinstance.py:731} INFO - ::endgroup::

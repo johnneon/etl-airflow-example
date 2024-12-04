@@ -39,3 +39,22 @@ mv ./files_hw_DE/profit_table.csv ./dags/
 mv ./files_hw_DE/transform_script.py ./dags/
 mv ./files_hw_DE/flags_activity.csv ./dags/
 ```
+
+Далее запускаем airflow:
+```shell
+docker-compose up --build
+```
+
+Находим DAG etl_client_activity_EFIMOVICH_EVGENII и запускаем в web ui, который будет находится на http://localhost:8080/.
+
+## Процесс работы DAG
+
+В рамках этапа **Extract** мы считываем данные из csv файла, и складываем их в паркет
+(это было сделано по тому что просто передать их через XCom мой ноут не осилил), далее в **Transform**
+получаем путь к файлу с паркетом через XCom, считываем его в датафрейм, трансформируем данные, и на
+этапе **Load** получаем их и складываем в flags_activity.csv.
+
+Так же отдельно был реализован метод параллельной обработки данных в функции transform_product_data,
+но оставляю его закомментированным, так как для его корректной работы нужно менять трансформацию данных.
+
+Скринкаст с выполненой работой можно посмотреть тут - [result/README.md](result/README.md)
