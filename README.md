@@ -24,3 +24,18 @@
 
 ## Какой ожидаем увидеть результат:
 Необходимо реализовать DAG в Apache Airflow по указанной выше инструкции. В качестве ответа на задание приложите код создания дага и налаженного etl-процесса; а также скрин графа в Airflow и его успешного запуска на главной странице.
+
+## Процесс запуска
+
+Сначала нужно инициализировать airflow:
+
+```shell
+docker-compose up airflow-init
+```
+
+Далее нужно распаковать files_hw_DE.zip, и содержимое папки files_hw_DE переместить в `./dags`:
+```shell
+mv ./files_hw_DE/profit_table.csv ./dags/
+mv ./files_hw_DE/transform_script.py ./dags/
+mv ./files_hw_DE/flags_activity.csv ./dags/
+```
